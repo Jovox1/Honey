@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header__container {
+    max-width: 1180px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.container {
+    max-width: 1500px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__img {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header__menu {
+
+    padding-top: 38px;
+    margin-bottom: 39px;
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.list__item{
+    color: #000000;   
+}
+
+
+.banner {
+    margin-bottom: 130px;
+}
+
+.container__img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.Finger {
+    position: absolute;
+    top: 182px;
+    left: 177px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 130px;
+    color: #0B0B0B;
+}
+
+.licking {
+    position: absolute;
+    top: 322px;
+    left: 275px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 130px;
+    color: #0B0B0B;
+}
+
+.honey {
+    position: absolute;
+    top: 462px;
+    left: 177px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 130px;
+}
+
+.banner__btn {
+    position: absolute;
+    bottom: 138px;
+    left: 177px;
+}
+
+.btn {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    display: flex;
+    padding: 18px 50px;
+    width: 180px;
+    height: 65px;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.banner__a {
+    position: absolute;
+    bottom: 138px;
+    left: 387px;
+    width: 229px;
+    height: 65px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #000000;
+    padding: 18px 50px;
+    border: 3px solid black;
+}
+
+.trust {
+    margin-bottom: 130px;
+}
+
+.trust__container {
+    max-width: 1146px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.trust__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trust__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-bottom: 52px;
+}
+
+.hon {
+    margin-bottom: 101px;
+}
+
+.hon__container {
+    max-width: 1436px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.hon__wrap {
+    display: flex;
+    align-items: center;
+    gap: 0 32px;
+}
+
+.hon__h {
+    margin-bottom: 30px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.hon__p {
+    margin-bottom: 50px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.hon__a {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #E58311;
+    padding: 15px 40px;
+}
+
+.does {
+    margin-bottom: 100px;
+}
+
+.does__container {
+    max-width: 1408px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.does__wrap {
+    display: flex;
+    align-items: center;
+}
+
+.leftbox__h {
+    margin-bottom: 30px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.leftbox__p {
+    margin-bottom: 50px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    opacity: 0.7;
+}
+
+.leftbox__a {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    background: #E58211;
+    color: #FFFFFF;
+    padding: 15px 40px;
+}
+
+.our {
+    margin-bottom: 130px;
+}
+
+.our__container {
+    max-width: 1176px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.our__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.our__a {
+    margin-top: 43px;
+    margin-left: 1086px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #E58211;
+    text-decoration: underline;
+}
+
+.our__wrap {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+    margin-top: 50px;
+
+}
+
+.our__left {
+    display: flex;
+    align-items: center;
+}
+
+.le__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+    padding: 45px 32px 20px 30px;
+
+}
+
+.le__p {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    opacity: 0.7;
+    padding: 0 0 40px 30px;
+
+
+
+}
+
+.le__a {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #E58211;
+    border: 3px solid #E58211;
+    padding: 10px 30px;
+    margin-left: 30px;
+}
+
+.our__right {
+    display: flex;
+    align-items: center;
+}
+
+.ri__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+    padding: 40px 143px 30px 30px;
+}
+
+.ri__p {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    opacity: 0.7;
+    padding: 0 61px 40px 30px;
+
+}
+
+.ri__a {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #E58211;
+    border: 3px solid #E58211;
+    padding: 10px 30px;
+    margin-left: 30px;
+}
+
+.footer {
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.footer__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer__center {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 58px 0;
+}
+
+.footer__right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 48px 0 48px 173px;
+}
+
+.footer__p {
+    padding: 45px 88px 45px 50px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+
+}
